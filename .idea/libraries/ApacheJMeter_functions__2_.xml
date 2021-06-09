@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ApacheJMeter_functions (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/java/lib/ApacheJMeter_functions.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
