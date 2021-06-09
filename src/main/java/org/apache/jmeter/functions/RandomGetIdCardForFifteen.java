@@ -28,10 +28,10 @@ public class RandomGetIdCardForFifteen extends AbstractFunction {
         if (values.length>1){
             birth = new String(((CompoundVariable)values[0]).execute().trim());
             male = new String(((CompoundVariable)values[1]).execute().trim());
-            idCard15= StringUtils.getIdNo(birth,male);
+            idCard15= StringUtils.getIdNoByFifteen(birth,male);
         }else{
             male = new String(((CompoundVariable)values[0]).execute().trim());
-            idCard15= StringUtils.getIdNo(male);
+            idCard15= StringUtils.getIdNoByFifteen(male);
         }
 
         return idCard15;
